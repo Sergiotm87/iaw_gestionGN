@@ -80,10 +80,10 @@ WSGI_APPLICATION = 'gestion.wsgi.application'
 DATABASES = {
 	'default': {
 		'ENGINE': 'django.db.backends.mysql',
-		'NAME': 'djangodb',
-		'USER': 'djangodbuser',
-          	'PASSWORD': 'djangodbpass',
-          	'HOST': 'localhost',
+		'NAME': 'kammin$datobase',
+		'USER': 'kammin',
+          	'PASSWORD': 'mejorpassever1',
+          	'HOST': 'kammin.mysql.pythonanywhere-services.com',
           	'PORT': '',
       }
   }
